@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Finishing Woodball</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="video">Video \n Finising</string>
+
+    <!--Sejarah-->
+    <string name="paraf">Woodball diciptakan di tahun 1990 oleh Mr. Ming Hui Weng di kota Taipe Taiwan. Pada waktu itu Mr. Weng bermain golf, namun mempertimbangkan pengeluaran biaya yang besar dan waktu yang terbuang saat bermain golf, terbesit dalam pikiranya, mungkin dia dapat memanfaatkan kebunya dengan merancangnya sebagai ajang permainan yang mirip dengan permainan golf dengan bola.</string>
+    <string name="paraf2">Sebuah bola kayu bulat (garis tengahnya 10 cm )diciptakan oleh Mr. Weng secara tidak terduga, dan mudah dipegang ukuranya pun sangatlah ideal, Mallet atau pemukul dibuat dari botol kaca bir Taiwan, dan Mr. Weng berfikir bahwa botol tersebut akan cocok untuk kepala mallet ( palu mallet dibuat dari kayu ). Setelah membuat peralatan woodball dan mengujinya , ternyata efek ayunan dan dorongan cukup hebat untuk menggulirkanya bola ke depan. Ketika bentuk mallet selesai yang terpikir kemudian sasaran dari pukulan arah bola. Mempertimbangkan kelemahan akan penuhnya air dalam lubang  kemudian mengacu pada permainan sepakbola dan merubah gawang dengan botol bit dari kayu. Botol kayu tersebut mempunyai ukuran 20 cm ini memudahkan untuk memasang dan melepaskanya. Kemudian Mr. Weng  memodifikasi net gawang dengan cangkir kayu terpasang terbalik pada gawang.</string>
+    <string name="paraf3">Ketika bola menrobos gawang, cangkir akan berputar, dan ini juga melambangkan sorak-sorai.Secara teknik, cangkir tersebut mengurangi perselesihan apakah bola itu menerobos gawang atau tidak. Setelah eksperimen dan pengujian perlengkapan woodball termasuk bola, mallet dan gawangnya yang bentuk akhir perlengkapan woodball seperti yang kita kenal sekarang. Selama pengujian, beberapa teman Mr. Weng ingin mengetahui dari Negara mana perlengkapan woodball itu di datangkan. Mendengar hal tersebut Mr. Weng merasa bangga berhubungan dengan daya Tarik daro bagian-bagian depan woodball.</string>
+    <string name="paraf4">Mr. Weng merasa cemas juga bahwa semua olahraga berbola diciptakan oleh orang asing, dan kita hanya mengikutinya. Sejauh ini tidak ada olahraga yang diciptakan orang Cina dan cukup popular di berbagai Negara. Oleh karena itu Mr. Weng mempromosikan Woodball dengan segala cara dalam waktu singkat membentuk Chinese Taipe Woodball Association yang didirikan tanggal 11 September 1993. Dan saat yang paling diharapkan kemudian adalah membuka satu cabang olahraga baru yang diciptakan oleh bangsa China dab berusaha keras mempromosikan Woodball keseluruh dunia.</string>
+
+    <!--Permaianan-->
+    <string name="permainan">Permainan Woodball dimulai dari garis batas mulai (Start area) sampai dengan masuknya bola ke dalam gate dengan cara memukul bola dengan mengunakan mallet. Pada Pukulan pertama bola harus ditempatkan di area start dan menuju ke arah gawang (gate). Bola yang dimainkan dipukul masuk ke dalam gawang melewati cangkir kayu, dan menjauhinya atau tidak menempel satu sama lain. Jika bola dipukul menerobos gawang dan mengelilingi kembali kemudian menempel dengan cangkir kayu, goal tersebut dianggap goal. Jika bola yang dipukul keluar melewati garis lintasan fairway kemudian masuk kembali ke dalam lapangan maka bola tersebut dinyatakan OB (Out of boundary). Apabila bola OB, bola harus diambil kembali dan ditempatkan pada posisi titik lintas bola keluar dari batas diambil sebagai pusat dengan radius dua kepala mallet.</string>
+
+    <!--Fasilitas-->
+    <string name="mallet">Dengan bentuk T dan berat 800 gram, panjang  900 + 100 mm (35.4 + 4 inchi), ukuran kepala mallet 215 + 5 mm (8.46 + 0.20 inchi). dengan kepala mallet berbentuk botol dengan diameter terluar 66 + 2 mm (2.60 + 0.08 inchi), berat 38 + 1 mm (1.50 + 0.04 inchi), ketebalan karet (rubber cap) 13 + 1 mm (0.51 + 0.04 inchi).</string>
+    <string name="bolla">bola, yang terbuat dari bahan kayu (natural wood). dengan diameter 95 ± 2 mm dan beratnya adalah 350 ± 60 gram</string>
+    <string name="gate">gawang (Gate), yang semua bahannya terbuat dari kayu, berjumlah dua buah dan berbentuk botol. Jarak dari tanah 150 + 5 mm, diukur dari jarak terluar masing-masing.</string>
+
+    <!--Manfaat-->
+    <string name="mparaf">1.Olahraga mudah dimainkan dari anak kecil hingga orang dewasa.</string>
+    <string name="mparaf1">2.Memiliki resiko cidera yang minim karena tidak berhadapan dengan lawan seperti duel adu fisik.</string>
+    <string name="mparaf2">3.Meningkatkan focus atau kosentrasi dan melatih management emosi.</string>
+    <string name="mparaf3">4.Mengedepankan pendidikan karakter ( Sportifitas, etika, pentingnya berbagi ilmu, menanamkan sikap positif thinking, semangat untuk memiliki daya juang, dll).</string>
+    <string name="mparaf4">5.Kesempatan/ peluang juara besarkarena masih termasukolahraga baru dan memiliki 14 pilihan kategori nomor yang di perlombakan.</string>
+    <string name="mparaf5">6.Menunjang prestasi akademik dengan prestasi akademik dengan prestasi olahraga sebab diperlombakan dari kelas junior SD (PON Remaja) sampai tingkat Asian University.</string>
+    <string name="mparaf6">7.Peningkatan kualitas daya tahan tubuh akan berkembang seiring pola latihan yang teratur.</string>
+    <string name="mparaf7">8.Olahraga yang mengedepankan relasi antar pemainbaik di Indonesia bahkan luar negeri.</string>
+    <string name="mparaf8">9.Berkesempatan berolahraga  sambil berekreasi keliling Indonesia bahkan luar negeri</string>
+
+    <!--About-->
+    <string name="title_activity_about">Tentang Aplikasi</string>
+    <string name="deskripsi">Finishing Woodball merupakan aplikasi untuk pembelajaran dalam bidang olahraga.</string>
+    <string name="owner">Ahmad Yunan Ari Fadlila</string>
+    <string name="nim">140631604179</string>
+    <string name="prodi">Pendidikan Kepelatihan Olahraga</string>
+    <string name="fakultas">Fakultas Ilmu Keolahragaan</string>
+    <string name="univ">Universitas Negeri Malang</string>
+
+</resources>

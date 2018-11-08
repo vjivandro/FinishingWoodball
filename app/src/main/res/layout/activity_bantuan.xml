@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.sport.woodball.BantuanActivity"
+    android:background="@drawable/dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntMateri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/materi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materi"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/about"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntWb"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/woodball"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Woodball"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntWasit"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/wasit"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perwasitan"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntVariasi"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/variasi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Variasi"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntVideo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/video"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Video"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/bntMan"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/manfaat"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manfaat"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="9dp"/>
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

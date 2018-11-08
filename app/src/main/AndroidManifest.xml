@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sport.woodball">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Menu -->
+        <activity
+            android:name=".MateriActivity"
+            android:label="Daftar Materi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Materi -->
+        <activity
+            android:name=".Materi.WoodBallActivity"
+            android:label="Woodball"
+            android:parentActivityName=".MateriActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MateriActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.PerwasitanActivity"
+            android:label="Perwasitan"
+            android:parentActivityName=".MateriActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MateriActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.ManfaatActivity"
+            android:label="Manfaat"
+            android:parentActivityName=".MateriActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MateriActivity" />
+        </activity>
+
+        <!-- Materi Woodball -->
+        <activity
+            android:name=".Materi.SejarahActivity"
+            android:label="Sejarah WoodBall"
+            android:parentActivityName=".Materi.WoodBallActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.WoodBallActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.PermainanWoodBall"
+            android:label="Permainan WoodBall"
+            android:parentActivityName=".Materi.WoodBallActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.WoodBallActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.FasilitasActivity"
+            android:label="Fasilitas WoodBall"
+            android:parentActivityName=".Materi.WoodBallActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.WoodBallActivity" />
+        </activity>
+
+        <!-- Materi Perwasitan -->
+        <activity
+            android:name=".Materi.JenisScoreSheet"
+            android:label="Perwasitan"
+            android:parentActivityName=".Materi.PerwasitanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.PerwasitanActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.TandaWasit"
+            android:label="Perwasitan"
+            android:parentActivityName=".Materi.PerwasitanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.PerwasitanActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.Penomoran"
+            android:label="Perwasitan"
+            android:parentActivityName=".Materi.PerwasitanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.PerwasitanActivity" />
+        </activity>
+        <activity
+            android:name=".Materi.HasilAkhir"
+            android:label="Perwasitan"
+            android:parentActivityName=".Materi.PerwasitanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Materi.PerwasitanActivity" />
+        </activity>
+
+        <!-- Video -->
+        <activity
+            android:name=".VideoActivity"
+            android:label="Daftar Video"
+            android:parentActivityName=".MateriUtama">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MateriUtama" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi1"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi2"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi3"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi4"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi5"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi6"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi7"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi8"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi9"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+        <activity
+            android:name=".Video.Video_Variasi10"
+            android:parentActivityName=".VideoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoActivity" />
+        </activity>
+
+        <!-- Variasi -->
+        <activity
+            android:name=".Variasi.VariasiActivity"
+            android:label="Variasi"
+            android:parentActivityName=".MateriUtama">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MateriUtama" />
+        </activity>
+        <activity
+            android:name=".Variasi.VariasiDetail"
+            android:label="Detail Variasi"
+            android:parentActivityName=".Variasi.VariasiActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Variasi.VariasiActivity" />
+        </activity>
+
+        <!-- About -->
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutOwner"
+            android:label="Application by"
+            android:parentActivityName=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutActivity" />
+        </activity>
+
+        <!-- Bantuan -->
+        <activity
+            android:name=".BantuanActivity"
+            android:label="Panduan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Web -->
+        <activity
+            android:name=".WebFikActivity"
+            android:label="Fakultas Ilmu Keolahragaan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutActivity" />
+        </activity>
+        <activity
+            android:name=".WebUnivActivity"
+            android:label="Universitas Negeri Malang">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AboutActivity" />
+        </activity>
+        <activity
+            android:name=".MateriUtama"
+            android:label="Daftar Materi"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

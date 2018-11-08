@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application by : "
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="12pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/yunan"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/owner"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="10pt"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="10pt"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prodi"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="10pt"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fakultas"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="10pt"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/univ"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="10pt"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>

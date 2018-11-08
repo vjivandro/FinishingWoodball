@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sport.woodball.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESKRIPSI"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deskripsi"
+                    android:textSize="10pt"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="by : "
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+                <Button
+                    android:id="@+id/owner"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/owner"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Developper"
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/videografi"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/videograf"/>
+
+                    <Button
+                        android:id="@+id/desiner"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/desiner"/>
+
+                    <Button
+                        android:id="@+id/mobile"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:background="@drawable/mobile"/>
+                </GridLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power by : "
+                    android:textSize="10pt"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#bdc3c7"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/um"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/fak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="www.fik.um.ac.id"
+                    android:textSize="10pt"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/univ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="www.um.ac.id"
+                    android:textSize="10pt"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/univ"
+                    android:textSize="10pt"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017"
+                    android:textSize="10pt"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Copyright © 2017 - Finishing Woodbaal"
+                    android:layout_marginTop="7dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

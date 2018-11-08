@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <!--Finishing 1-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 1"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 2-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 2"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 3-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 3"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 4-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 4"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 5-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 5"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 6-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 6"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 7-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 7"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 8-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 8"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 9-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 9"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <!--Finishing 10-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/vd10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/playvid"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finishing 10"
+                    android:textStyle="bold"
+                    android:textSize="8pt"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
